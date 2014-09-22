@@ -1,0 +1,142 @@
+//
+// Animation
+// --------------------------------------------------
+
+// Checkbox: Background OFF
+@-webkit-keyframes checkbox-bg-off {
+    0% { border-width: 10px; }
+    50% { border-width: 10px; }
+    100% { border-width: 2px; }
+}
+@keyframes checkbox-bg-off {
+    0% { border-width: 10px; }
+    50% { border-width: 10px; }
+    100% { border-width: 2px; }
+}
+// Checkbox: Background ON
+@-webkit-keyframes checkbox-bg-on {
+    from { border-width: 2px; }
+    to { border-width: 10px; }
+}
+@keyframes checkbox-bg-on {
+    from { border-width: 2px; }
+    to { border-width: 10px; }
+}
+
+/* Checkbox: Marker default/out */
+@-webkit-keyframes checkbox-marker-off {
+    0% {
+        border-width: 0 0 2px 2px;
+        height: 8px;
+        margin-left: -7px;
+        margin-top: -6px;
+        width: 14px;
+    }
+    40% {
+        border-color: #fff;
+        border-width: 0 0 2px 0;
+        height: 0;
+        margin-left: -4px;
+        margin-top: -1px;
+        width: 14px;
+    }
+    70% {
+        border-color: #fff;
+        border-width: 0 0 2px 0;
+        height: 0;
+        margin-left: 6px;
+        margin-top: -5px;
+        width: 0;
+    }
+    100% {
+        border-color: #fff;
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+}
+@keyframes checkbox-marker-off {
+    0% {
+        border-width: 0 0 2px 2px;
+        height: 8px;
+        margin-left: -7px;
+        margin-top: -6px;
+        width: 14px;
+    }
+    40% {
+        border-color: #fff;
+        border-width: 0 0 2px 0;
+        height: 0;
+        margin-left: -4px;
+        margin-top: -1px;
+        width: 14px;
+    }
+    70% {
+        border-color: #fff;
+        border-width: 0 0 2px 0;
+        height: 0;
+        margin-left: 6px;
+        margin-top: -5px;
+        width: 0;
+    }
+    100% {
+        border-color: #fff;
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+}
+
+/* Checkbox: Marker in */
+@-webkit-keyframes checkbox-marker-on {
+    0% {
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+    40% {
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+    70% {
+        border-width: 0 0 0 2px;
+        height: 8px;
+        margin-left: -6px;
+        margin-top: -2px;
+        width: 0;
+    }
+    100% {
+        border-width: 0 0 2px 2px;
+        height: 8px;
+        margin-left: -7px;
+        margin-top: -6px;
+        width: 14px;
+    }
+}
+@keyframes checkbox-marker-on {
+    0% {
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+    40% {
+        border-width: 0;
+        height: 0;
+        width: 0;
+    }
+    70% {
+        border-width: 0 0 0 2px;
+        height: 8px;
+        margin-left: -6px;
+        margin-top: -2px;
+        width: 0;
+    }
+    100% {
+        border-width: 0 0 2px 2px;
+        height: 8px;
+        margin-left: -7px;
+        margin-top: -6px;
+        width: 14px;
+    }
+}

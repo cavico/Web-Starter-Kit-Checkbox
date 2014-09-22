@@ -1,0 +1,38 @@
+body {
+	background-color: #edeced;
+	padding: 15px 35px;
+}
+header {
+	margin-bottom: 50px;
+}
+hr {
+	visibility: hidden;
+}
+h1, h2 {
+	font-family: 'Roboto';
+}
+h1 {
+	font-weight: lighter;
+}
+h2 {
+	color: #aaa;
+}
+
+table {
+	width: 100%;
+}
+td, th {
+	padding: 15px;
+	text-align: left;
+}
+
+.inverse {
+	padding: 35px;
+	background-color: #333;
+	color: #fff;
+	margin-left: -35px;
+	margin-right: -35px;
+}
+.muted {
+	color: #999;
+}
