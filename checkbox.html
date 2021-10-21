@@ -1,132 +1,117 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Meta, title, CSS, favicons, etc. -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Checkboxes - jsFiddle demo</title>
-	<link href='//fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/defaults.css">
-	<link rel="stylesheet" href="styles/checkbox.css">
-</head>
-<body>
-	<header>
-		<h1>Web Starter Kit</h1>
-		<h2>Material Design checkbox*</h2>
-	</header>
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checkboxes - jsFiddle demo</title>
+    <link href="//fonts.googleapis.com/css?family=RobotoDraft:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/defaults.css" />
+    <link rel="stylesheet" href="styles/checkbox.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Web Starter Kit</h1>
+      <h2>Material Design checkbox*</h2>
+    </header>
+    <div class="md-checkbox">
+      <label>
+        <input type="checkbox" checked />
+        <span class="checkbox"></span>
+        Milk
+      </label>
+    </div>
+    <div class="md-checkbox">
+      <label>
+        <input type="checkbox" />
+        <span class="checkbox"></span>
+        Cereal
+      </label>
+    </div>
+    <div class="md-checkbox">
+      <label>
+        <input type="checkbox" />
+        <span class="checkbox"></span>
+        Eggs
+      </label>
+    </div>
+    <div class="md-checkbox">
+      <label>
+        <input type="checkbox" />
+        <span class="checkbox"></span>
+        Pony
+      </label>
+    </div>
 
-	<div class="md-checkbox">
-		<label>
-			<input type="checkbox" checked>
-			<span class="checkbox"></span>
-			Milk
-		</label>
-	</div>
+    <hr />
 
-	<div class="md-checkbox">
-		<label>
-			<input type="checkbox">
-			<span class="checkbox"></span>
-			Cereal
-		</label>
-	</div>
-
-	<div class="md-checkbox">
-		<label>
-			<input type="checkbox">
-			<span class="checkbox"></span>
-			Eggs
-		</label>
-	</div>
-
-	<div class="md-checkbox">
-		<label>
-			<input type="checkbox">
-			<span class="checkbox"></span>
-			Pony
-		</label>
-	</div>
-
-	<hr>
-
-	<h2>Inverse Examples</h2>
-
-
-	<div class="inverse">
-		<table>
-			<thead class="text-muted">
-				<tr>
-					<th></th>
-					<th>active</th>
-					<th>disabled</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="text-muted">ON</td>
-					<td>
-
-						<div class="md-checkbox md-checkbox-inverse">
-							<label>
-								<input type="checkbox" checked>
-								<span class="checkbox"></span>
-								Milk
-							</label>
-						</div>
-
-					</td>
-					<td>
-
-						<div class="md-checkbox md-checkbox-inverse">
-							<label>
-								<input type="checkbox" checked disabled>
-								<span class="checkbox"></span>
-								Cereal <span class="muted">(disabled)</span>
-							</label>
-						</div>
-
-					</td>
-				</tr>
-				<tr>
-					<td class="text-muted">OFF</td>
-					<td>
-
-						<div class="md-checkbox md-checkbox-inverse">
-							<label>
-								<input type="checkbox">
-								<span class="checkbox"></span>
-								Eggs
-							</label>
-						</div>
-
-					</td>
-					<td>
-
-						<div class="md-checkbox md-checkbox-inverse">
-							<label>
-								<input type="checkbox" disabled>
-								<span class="checkbox"></span>
-								Pony <span class="muted">(disabled)</span>
-							</label>
-						</div>
-
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-
-
-	<footer>
-		<small>
-		*Teste in Chrome, Safari, Firefox and IE9+ <br>
-		Developed by Camilo Vitorino da Costa (@cavico) <br>
-			Source code (CSS, SASS and updates) <a href="https://github.com/cavico/Web-Starter-Kit-Checkbox/">https://github.com/cavico/Web-Starter-Kit-Checkbox/</a>
-		</small>
-	</footer>
-
-
-</body>
+    <h2>Inverse Examples</h2>
+    <div class="inverse">
+      <table>
+        <thead class="text-muted">
+          <tr>
+            <th></th>
+            <th>active</th>
+            <th>disabled</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-muted">ON</td>
+            <td>
+              <div class="md-checkbox md-checkbox-inverse">
+                <label>
+                  <input type="checkbox" checked />
+                  <span class="checkbox"></span>
+                  Milk
+                </label>
+              </div>
+            </td>
+            <td>
+              <div class="md-checkbox md-checkbox-inverse">
+                <label>
+                  <input type="checkbox" checked disabled />
+                  <span class="checkbox"></span>
+                  Cereal <span class="muted">(disabled)</span>
+                </label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-muted">OFF</td>
+            <td>
+              <div class="md-checkbox md-checkbox-inverse">
+                <label>
+                  <input type="checkbox" />
+                  <span class="checkbox"></span>
+                  Eggs
+                </label>
+              </div>
+            </td>
+            <td>
+              <div class="md-checkbox md-checkbox-inverse">
+                <label>
+                  <input type="checkbox" disabled />
+                  <span class="checkbox"></span>
+                  Pony <span class="muted">(disabled)</span>
+                </label>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      <small>
+        *Teste in Chrome, Safari, Firefox and IE9+ <br />
+        Developed by Camilo Vitorino da Costa (@cavico) <br />
+        Source code (CSS, SASS and updates)
+        <a href="https://github.com/cavico/Web-Starter-Kit-Checkbox/">
+					https://github.com/cavico/Web-Starter-Kit-Checkbox/
+				</a>
+      </small>
+    </footer>
+  </body>
 </html>
